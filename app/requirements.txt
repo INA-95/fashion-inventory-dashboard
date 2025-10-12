@@ -6,3 +6,4 @@ google-cloud-bigquery-storage
 google-auth
 pyarrow
 db-dtypes
+matplotlib
