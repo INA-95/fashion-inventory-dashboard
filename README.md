@@ -51,13 +51,13 @@ fashion-inventory-dashboard/
 
 ## 🚀 How to Run Locally
 
-```
+
 ### 1️⃣ Create and Activate Virtual Environment
-bash
+```bash
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 
-### 2️⃣ Create and Activate Virtual Environment
+### 2️⃣ Install Requirements
 pip install -r app/requirements.txt
 
 ### 3️⃣ Add BigQuery Credentials
