@@ -26,6 +26,7 @@ A clean and reproducible data app demonstrating:
 
 ## 📁 Repository Structure
 
+```markdown
 fashion-inventory-dashboard/
 ├─ README.md
 ├─ sql/
