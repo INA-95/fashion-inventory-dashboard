@@ -68,6 +68,7 @@ private_key_id = "..."
 private_key = "-----BEGIN PRIVATE KEY-----\\n...\\n-----END PRIVATE KEY-----\\n"
 client_email = "svc-bq@YOUR_PROJECT_ID.iam.gserviceaccount.com"
 token_uri = "https://oauth2.googleapis.com/token"
+```
 
 .gitignore
 .venv/
