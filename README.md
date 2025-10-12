@@ -26,66 +26,68 @@ A clean and reproducible data app demonstrating:
 
 ## 📁 Repository Structure
 
-```markdown
-fashion-inventory-dashboard/
-├─ README.md
-├─ sql/
-│ └─ create_view_current_inventory.sql
-├─ app/
-│ ├─ app.py
-│ └─ requirements.txt
-├─ .streamlit/
-│ └─ secrets.toml.example
-├─ tests/
-│ └─ test_bigquery_connection.py
-├─ .github/
-│ └─ workflows/
-│ └─ ci.yml
-├─ docs/
-│ ├─ architecture.png # optional
-│ └─ demo.gif # optional
-├─ .gitignore
-└─ LICENSE
+```
+    fashion-inventory-dashboard/
+    ├─ README.md
+    ├─ sql/
+    │ └─ create_view_current_inventory.sql
+    ├─ app/
+    │ ├─ app.py
+    │ └─ requirements.txt
+    ├─ .streamlit/
+    │ └─ secrets.toml.example
+    ├─ tests/
+    │ └─ test_bigquery_connection.py
+    ├─ .github/
+    │ └─ workflows/
+    │ └─ ci.yml
+    ├─ docs/
+    │ ├─ architecture.png # optional
+    │ └─ demo.gif # optional
+    ├─ .gitignore
+    └─ LICENSE
+```
 
 ---
 
----
- 🚀 How to Run Locally
-
+## 🚀 How to Run Locally
 
 ### 1️⃣ Create and Activate Virtual Environment
-```bash
+
+```
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
+```
 
 ### 2️⃣ Install Requirements
+
+```
 pip install -r app/requirements.txt
+```
+
 
 ### 3️⃣ Add BigQuery Credentials
 
+```
 [gcp_service_account]
 project_id = "YOUR_PROJECT_ID"
 private_key_id = "..."
 private_key = "-----BEGIN PRIVATE KEY-----\\n...\\n-----END PRIVATE KEY-----\\n"
 client_email = "svc-bq@YOUR_PROJECT_ID.iam.gserviceaccount.com"
 token_uri = "https://oauth2.googleapis.com/token"
+```
 
 ---
 
-.gitignore
-.venv/
-.streamlit/secrets.toml
-*.json
-__pycache__/
-.ipynb_checkpoints/
+## 🧾 Tech Stack
 
-Tech Stack
+- Python 3.11
+- BigQuery (SQL)
+- Streamlit 1.x
+- Google Cloud Authentication
+- Matplotlib / Pandas
 
-Python 3.11
-BigQuery (SQL)
-Streamlit 1.x
-Google Cloud Authentication
-Matplotlib / Pandas
+---
 
-License
+## 📜 License
 MIT License
