@@ -87,6 +87,8 @@ token_uri = "https://oauth2.googleapis.com/token"
 - Google Cloud Authentication
 - Matplotlib / Pandas
 
+## Final Dashboard link
+https://fashion-inventory-dashboard-jsgamzpdzfb4odumiwv6gl.streamlit.app/
 ---
 
 ## 📜 License
