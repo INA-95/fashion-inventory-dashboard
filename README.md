@@ -90,6 +90,7 @@ token_uri = "https://oauth2.googleapis.com/token"
 ## Final Dashboard link
 
 - https://fashion-inventory-dashboard-jsgamzpdzfb4odumiwv6gl.streamlit.app/
+  <img width="723" height="602" alt="Image" src="https://github.com/user-attachments/assets/9f638efa-fb2d-4d3a-9e88-4296a674ccb0" />
 
 ---
 
